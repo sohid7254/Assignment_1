@@ -12,7 +12,5 @@ console.log(describeValue(0));         // "number | falsy"
 console.log(describeValue(true));      // "boolean | truthy"
 console.log(describeValue(null));      // "object | falsy"
 console.log(describeValue(undefined)); // "undefined | falsy"
-
-// Tricky cases
 console.log(describeValue("0"));       // "string | truthy"
 console.log(describeValue(NaN));       // "number | falsy"
